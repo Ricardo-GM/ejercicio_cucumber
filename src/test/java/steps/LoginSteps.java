@@ -43,6 +43,7 @@ public class LoginSteps {
     @And("El usuario da click en el boton de inicio de sesion")
     public void el_usuario_da_click_en_el_boton_de_inicio_de_sesion() {
         driver.findElement(loginButtonLocator).click();
+        System.out.println("Hola");
     }
     @Then("El usuario visualiza la pantalla de productos")
     public void el_usuario_visualiza_la_pantalla_de_productos() {
